@@ -3211,7 +3211,11 @@ form .search-btn:hover {
 }
 .sale-cover img{
   border-radius: 999px;
-  width: 300px;
+  width: 100px !important;
+  /* height: 300px; */
+}
+.sale-cover .col{
+  width: 100px;
 }
 .sale-cover p{
   font-size: 20px ;
