@@ -3214,15 +3214,14 @@ form .search-btn:hover {
   width: 100px !important;
   /* height: 300px; */
 }
-.sale-cover p{
-  width: 70px;
-}
+
 .sale-cover p{
   font-size: 20px ;
   font-weight :bold ;
   color: rgb(7, 7, 74);
   text-align: center;
   padding: 10px;
+  width: 70px !important;
 }
 .pink img{
  margin:8px;
