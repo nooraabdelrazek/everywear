@@ -3214,8 +3214,8 @@ form .search-btn:hover {
   width: 100px !important;
   /* height: 300px; */
 }
-.sale-cover .col{
-  width: 100px;
+.sale-cover .p{
+  width: 70px;
 }
 .sale-cover p{
   font-size: 20px ;
