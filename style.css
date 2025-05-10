@@ -3212,7 +3212,6 @@ form .search-btn:hover {
 .sale-cover img{
   border-radius: 999px;
   width: 100px !important;
-  /* height: 300px; */
 }
 
 .sale-cover p{
@@ -3231,7 +3230,9 @@ form .search-btn:hover {
 }
 
 .blue img{
-  margin: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 .blue-btn{
   margin-top: -55px;
