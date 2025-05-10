@@ -3223,8 +3223,9 @@ form .search-btn:hover {
   width: 70px !important;
 }
 .pink img{
- margin:8px;
- width: 210px;
+ margin-top:5px;
+ margin-bottom: 5px;
+ width: 210px !important;
  height: 100%;
 
 }
