@@ -3139,6 +3139,24 @@ select.form-select {
   height: 60px;
   width: 900px;
 }
+.icons-nav .btn{
+
+  font-size: 22px;
+  color:rgb(80 75 75);
+}
+.icons-nav .btn:hover{
+  color: rgb(231, 19, 19);
+}
+.icons-nav{
+  margin-right: 30px;
+}
+
+ @media only screen and (max-width: 1200px) {
+  .icons-nav {
+    margin-right: 0px;
+  }
+
+ }
 
 
 @media only screen and (max-width: 600px) {
