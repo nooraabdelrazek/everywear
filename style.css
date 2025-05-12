@@ -3174,6 +3174,16 @@ select.form-select {
     }
   
 }
+navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    z-index: 999;
+    align-items: center;
+    background-color: #ffffff85;
+    position: absolute;
+    top: 100%;
+    width: 232px;
+    left: 0px;}
 
 
 .form-control {
