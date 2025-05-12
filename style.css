@@ -3280,13 +3280,13 @@ form .search-btn {
 }
 .blue-btn{
   margin-top: -55px;
-  transform: translate(23px, -38px);
+  transform: translate(0px, -38px);
  
 }
 .blue-btn button{
   background-color: #fefbfbde !important;
   border: #737373 !important;
-  width: 200px;
+  width: 45%;
   border-radius: 5px;
   font-weight: bold;
 }
