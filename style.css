@@ -3155,17 +3155,24 @@ select.form-select {
  @media only screen and (max-width: 1200px) {
   .icons-nav {
     margin-right: 0px;
-    margin: -4px;
   }
+  
+  
 
  }
 
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 768px) {
   .navbar-brand {
     width: 45% !important;
     margin-left: -5px !important;
   }
+    .icons-nav .btn{
+      font-size: 16px;
+    margin-left: -10px;
+
+    }
+  
 }
 
 
