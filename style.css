@@ -3138,17 +3138,18 @@ select.form-select {
 .logo {
   height: 60px;
   width: 900px;
+  margin-left: -10px;
 }
 .icons-nav .btn{
 
   font-size: 22px;
-  color:rgb(80 75 75);
+  color:rgb(58, 111, 255);
 }
 .icons-nav .btn:hover{
   color: rgb(231, 19, 19);
 }
 .icons-nav{
-  margin-right: 30px;
+  margin-right: 5px;
 }
 
  @media only screen and (max-width: 1200px) {
@@ -3159,34 +3160,41 @@ select.form-select {
  }
 
 
-@media only screen and (max-width: 600px) {
-  .form-nav {
-    width: 400px;
+@media only screen and (max-width: 990px) {
+  .navbar-brand {
+    width: 50% !important;
+    margin-left: 0px !important;
   }
 }
 
 
 .form-control {
-  height: 60px;
-  width: 520px;
-  margin: 15px;
+  height: 43px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid 1px rgb(213, 213, 213);
 
 
 }
 
 form .search-btn {
-  width: 120px !important;
-  height: 59px !important;
+  width: 70px !important;
+  height: 43px !important;
   border-radius: 5px !important;
   border: solid 1px rgb(213, 213, 213);
-  font-weight: bold;
-
+;  background-color: rgb(213, 213, 213);
+  color: rgb(70, 56, 56);
+  font-size: 13px;
+  margin-left: -45px !important;
+  margin-top: 20px !important;
+  text-align: center;
 }
 
-form .search-btn:hover {
+ form .search-btn:hover {
   background-color: rgb(6, 6, 230);
   color: white;
-}
+} 
 
 .navbar {
   padding-bottom: 0px !important;
