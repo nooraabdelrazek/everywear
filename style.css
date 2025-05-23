@@ -126,7 +126,7 @@ CSS STRUCTURE:
   --dark-color: #040404;
   --grey-color: #A9A09E;
   --light-color: #fff;
-  --primary-color: #EC6C5A;
+  --primary-color: #2a85cf;
   --primary-lighted-color: rgba(246, 236, 234, 0.9);
   --swiper-theme-color: #EC6C5A !important;
 }
@@ -1646,7 +1646,7 @@ header#header {
 }
 
 header#header .header-wrap {
-  z-index: 99;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1805,7 +1805,7 @@ a.text-black.text-uppercase.dropdown-item:hover {
     position: absolute;
     top: -15px;
     left: 20px;
-    z-index: 999999;
+    z-index: 999;
     padding: 10px;
     cursor: pointer;
     direction: ltr;
@@ -3140,8 +3140,11 @@ select.form-select {
   width: 900px;
   margin-left: -10px;
 }
+.navbar{
+    background-color: rgba(255, 255, 255, 0.979) !important;
+    transition: 0.3s !important;
+}
 .icons-nav .btn{
-
   font-size: 22px;
   color:rgb(58, 111, 255);
 }
@@ -3185,7 +3188,6 @@ navbar-collapse {
     width: 232px;
     left: 0px;}
 
-
 .form-control {
   height: 43px;
   width: 400px;
@@ -3223,8 +3225,7 @@ form .search-btn {
 }
 
 .sale-section {
-  margin-top: 200px;
-  padding-top: 10px;
+    padding-top: 160px;
   background-color: rgba(224, 72, 72, 0.098);
 }
 
@@ -3293,3 +3294,34 @@ form .search-btn {
 .logo-footer{
   margin-left: -30px;
 }
+ /* .modal-content{
+  width: 500px !important;
+  height: 300px !important;
+  margin-left: 100px !important; 
+ } */
+ /* .modal-content label{
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: rgb(7, 7, 74) !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal !important;
+
+ } */
+ /* .modal-content #inputPassword3 , #inputEmail3{
+  width: 400px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  border: solid 1px rgb(213, 213, 213) !important;} */
+
+ /* .modal-content label{
+  font-size: 18px !important;
+  margin-left: 2px !important;
+  margin-right: 30px !important
+
+ } */
+  /* .form-signin{
+  color: #040404;
+
+ } */
