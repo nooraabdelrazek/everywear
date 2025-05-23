@@ -3177,18 +3177,8 @@ select.form-select {
     }
   
 }
-navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-    z-index: 999;
-    align-items: center;
-    background-color: #ffffff85;
-    position: absolute;
-    top: 100%;
-    width: 232px;
-    left: 0px;}
 
-.form-control {
+header .form-control {
   height: 43px;
   width: 400px;
   margin: 20px;
@@ -3294,34 +3284,3 @@ form .search-btn {
 .logo-footer{
   margin-left: -30px;
 }
- /* .modal-content{
-  width: 500px !important;
-  height: 300px !important;
-  margin-left: 100px !important; 
- } */
- /* .modal-content label{
-  font-size: 20px !important;
-  font-weight: bold !important;
-  color: rgb(7, 7, 74) !important;
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-style: normal !important;
-
- } */
- /* .modal-content #inputPassword3 , #inputEmail3{
-  width: 400px !important;
-  height: 40px !important;
-  border-radius: 5px !important;
-  border: solid 1px rgb(213, 213, 213) !important;} */
-
- /* .modal-content label{
-  font-size: 18px !important;
-  margin-left: 2px !important;
-  margin-right: 30px !important
-
- } */
-  /* .form-signin{
-  color: #040404;
-
- } */
