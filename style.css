@@ -2060,7 +2060,10 @@ a.text-black.text-uppercase.dropdown-item:hover {
 .product-item .cart-concern {
   position: absolute;
   bottom: 30px;
-  left: 20px;
+  /* left: 20px; */
+  /* transform: translate(-50%, 0); */
+  left: 10%;
+  
   z-index: 9;
   transition: 0.5s ease-out;
   opacity: 0;
@@ -3283,4 +3286,7 @@ form .search-btn {
 }
 .logo-footer{
   margin-left: -30px;
+}
+.wishlist-btn{
+  height: 50px;
 }

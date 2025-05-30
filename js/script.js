@@ -201,3 +201,37 @@
   }); // End of a document
 
 })(jQuery);
+
+// new edit
+
+const cartItemsContainer = document.querySelector('.offcanvas-body'); // المكان اللي هنضيف فيه المنتجات في السلة
+
+const addToCartButtons = document.querySelectorAll('.add-to-cart'); // كل زرار Add to Cart في الصفحة
+
+addToCartButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // نوصل للعنصر الرئيسي بتاع المنتج اللي فيه الصورة والاسم والسعر
+    const productElement = button.closest('.swiper-slide');
+
+    // نجيب التفاصيل
+    const productImage = productElement.querySelector('.product-image').src;
+    const productTitle = productElement.querySelector('.product-title').textContent;
+        const productPrice = productElement.querySelector('.item-price').textContent;
+
+    // نعمل عنصر جديد في السلة
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('cart-item', 'd-flex', 'align-items-center', 'mb-2');
+    cartItem.innerHTML = `
+      <img src="${productImage}" alt="${productTitle}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px;">
+      <p class="me-2 ">${productTitle}</p>
+              <p class="item-price text-danger">${productPrice}</p>
+     <button class="btn btn-sm btn-danger ms-auto remove-btn">Remove</button>
+      <hr class="my-2">
+    `;
+const removeBtn = cartItem.querySelector('.remove-btn');
+removeBtn.addEventListener('click', () => {
+  cartItem.remove(); // يشيل العنصر ده من السلة
+});
+    cartItemsContainer.appendChild(cartItem);
+  });
+});
