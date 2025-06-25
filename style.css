@@ -2095,7 +2095,8 @@ a.text-black.text-uppercase.dropdown-item:hover {
   border-radius: 50%;
 }
 
-.product-store .swiper-button.swiper-button-prev {
+.product-store 
+-button.swiper-button-prev {
   left: 40px;
 }
 
@@ -2696,7 +2697,7 @@ img.insta-image {
 
 .shopify-grid img.product-image {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   object-fit: cover;
 }
 
